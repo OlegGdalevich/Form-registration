@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form>
+			<h1>Регистрация</h1>
+			
+      <input type="text" name="username" placeholder="Name" required>
+
+      <input type="number" min="14" max="125" name="age" placeholder="Age" required>
+
+      <input type="date" name="birthday" title="Birthday" required>
+
+      <input type="tel" name="telephone" placeholder="Phone" required>
+
+      <input type="email" name="email" placeholder="Email" required>
+
+      <input type="password" name="password" placeholder="Password" required>
+
+      <div>
+        <h3>Страна проживания:</h3>
+        <input type="radio" id="rassia" name="country" checked>
+        <label for="rassia">Россия</label>
+				<br>
+        <input type="radio" id="other" name="country">
+        <label for="other">Другая</label>
+      </div>
+
+			<button type="reset">Сброс данных</button>
+			<button type="submit">Зарегистрироваться</button>
+    </form>
+</body>
+</html>

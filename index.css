@@ -1,0 +1,60 @@
+body {
+    background: linear-gradient(to bottom right, rgb(132, 0, 255), rgb(196, 0, 154));
+}
+
+form {
+    background-color: white;
+    margin: auto;
+    max-width: 300px;
+    box-shadow: 4px 4px 14px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding-bottom: 10px;
+    margin-top: 10%;
+}
+
+h1, form>div, button {
+    width: 190px;
+}
+
+form>* {
+    margin: auto;
+}
+
+form>input {
+    display: block;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    height: 25px;
+    width: 250px;
+}
+
+form>input:visited {
+    border-width: 0px;
+    border-bottom-width: 1px;
+}
+
+button {
+    margin-top: 5px;
+    display: block;
+    border-radius: 10px;
+    border-width: 0px;
+    background: linear-gradient(to bottom right, rgba(196, 0, 154, 0.5), rgba(132, 0, 255, 0.8));
+    height: 22px;
+}
+
+button,div>input:hover {
+  cursor: pointer;
+}
+
+div>input {
+  margin-left: 10px;
+}
+
+h3 {
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+h1 {
+    margin-bottom: 70px;
+}
