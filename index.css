@@ -1,5 +1,12 @@
 body {
-    background: linear-gradient(to bottom right, rgb(132, 0, 255), rgb(196, 0, 154));
+  background: linear-gradient(to bottom right, rgb(132, 0, 255), rgb(196, 0, 154));
+}
+
+html,body {
+  min-height: 100vh;
+}
+footer {
+  background-color: black;
 }
 
 form {
@@ -9,7 +16,8 @@ form {
     box-shadow: 4px 4px 14px 3px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     padding-bottom: 10px;
-    margin-top: 10%;
+    margin-top: 8%;
+    /* margin-bottom: ; */
 }
 
 h1, form>div, button {
@@ -28,10 +36,6 @@ form>input {
     width: 250px;
 }
 
-form>input:visited {
-    border-width: 0px;
-    border-bottom-width: 1px;
-}
 
 button {
     margin-top: 5px;
@@ -56,5 +60,5 @@ h3 {
 }
 
 h1 {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
